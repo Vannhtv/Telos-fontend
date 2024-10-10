@@ -1,0 +1,157 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landify</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        .container {
+            height: 100%;
+            display: flex;
+
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        
+        .nav {
+            display: flex;
+            width: 1110px;
+            height: 72px;
+
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .menuleft {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+
+        .menu {
+            display: flex;
+            gap: 32px;
+        }
+
+        .logoappstore {
+            display: flex;
+            gap: 12px;
+        }
+
+        .moreandicon {
+            display: flex;
+            gap: 4px;
+        }
+
+        .hero {
+            display: flex;
+            width: 1100px;
+            margin: 96px 0px 0px 0px;
+            flex-direction: column;
+            align-items: center;
+            gap: 94px;
+        }
+
+        .text {
+            font-size: 72px;
+            line-height: 98px;
+            font-weight: 900;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .button {
+            display: flex;
+            background-color: blueviolet;
+            width: 158px;
+            height: 48px;
+            border-radius: 6px;
+
+            justify-content: center;
+            align-items: center;
+        }
+
+        .title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 32px;
+        }
+
+        .rectangle {
+            width: 1200px;
+            height: 170px;
+
+            z-index: -1;
+
+            overflow: hidden;
+            /* top: -0px;
+            right: -691px; */
+
+            margin-top: -170px;
+        }
+
+        .circle {
+            background-color: blueviolet;
+            opacity: 0.5;
+            width: 1200px;
+            height: 1200px;
+            border-radius: 50%;
+        }
+
+        .mobilephone {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* .mobilephone>img {
+            margin-bottom: -170px;
+        } */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="menuleft">
+                <img src="/BTVN/Hinh anh/Dark.svg" alt="">
+                <div class="menu">
+                    <div>About</div>
+                    <div>Products</div>
+                    <div>Pricing</div>
+                    <div>Blog</div>
+                    <div>Jobs</div>
+                    <div class="moreandicon">
+                        <div class="more">more</div>
+                        <img src="/BTVN/Hinh anh/chevron-down.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="logoappstore">
+                <img src="/BTVN/ anh/App Store Badge.svg" alt=""><img src="/BTVN/Hinh anh/Google Play Badge.svg" alt="">
+            </div>
+        </div>
+        <div class="hero">
+            <div class="title">
+                <div class="text">Track your product sales from anywhere, anytime.</div>
+                <div class="button">Start selling</div>
+            </div>
+            <div class="mobilephone">
+                <img src="/BTVN/Hinh anh/iPhone X.svg" alt="">
+                <div class="rectangle">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
